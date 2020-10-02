@@ -16,6 +16,10 @@ slatepackInput.addEventListener('keyup', () => {
         console.log('NOT a valid slatepack!');
     }
 
+    if(!message){ // if the field value is now empty
+        slatepackInput.style.borderColor = 'rgba(0, 0, 0, 0.2)';
+    }
+
 });
 
 const timer = setInterval(() => {
