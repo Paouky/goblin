@@ -12,7 +12,7 @@ slatepackInput.addEventListener('keyup', () => {
         slatepackInput.style.borderColor = 'rgba(181, 232, 71, 0.5)';
         console.log('valid slatepack!');
     } else {
-        slatepackInput.style.borderColor = 'rgba(122, 20, 27, 0.5)';
+        slatepackInput.style.borderColor = 'rgba(255, 00, 0, 0.5)';
         console.log('NOT a valid slatepack!');
     }
 
