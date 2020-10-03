@@ -49,7 +49,7 @@ h1 {
 }
 
 .sp {
-    width: 85%;
+    width: 90%;
     max-width: 600px; /* to limit the size of the input box */
 
     display: flex;
