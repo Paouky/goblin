@@ -57,16 +57,16 @@ h1 {
     flex-direction: column;
     flex-wrap: wrap;
 
-    -webkit-animation: form-showing 4s 2s ease forwards;
+    /* -webkit-animation: form-showing 4s 2s ease forwards;
     animation: form-showing 4s 2s ease forwards;
-    opacity: 0;
+    opacity: 0; */
 }
 
 .sp label {
     padding-left: 2px;
 }
 
-@-webkit-keyframes form-showing {
+/* @-webkit-keyframes form-showing {
   0% {
     opacity: 0;
   }
@@ -82,7 +82,7 @@ keyframes form-showing {
   100% {
     opacity: 1;
   }
-}
+} */
 
 .sp label {
     margin-bottom: 20px;
@@ -99,6 +99,7 @@ keyframes form-showing {
   font-size: 12px;
   font-family: monospace;
   color: #DEDEDE;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* div {
